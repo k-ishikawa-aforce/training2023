@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h3>課題1</h3>
+<p id="star"></p> 
+<h3>課題2</h3>
+<p id="twostars"></p>
+<h3>課題3</h3>
+
+<form>
+	お金を入れる
+	<input type="number" id="payment1" name="amount" >
+	<select id="select">
+		<option>コーヒー(150円)</option>
+		<option>お茶(130円)</option>
+		<option>オレンジジュース(160円)</option>
+		<option>水 (100円)</option>
+	</select>
+	<input type="button" id="purchase1" value="購入">
+	<p id="output"></p>
+</form>
+
+<h3>発展</h3>
+<form>
+	お金を入れる
+	<input type="number" id="payment2" name="amount">
+	<br>
+	<input type="radio" name="drink" id="coffee" disabled>コーヒー(￥150)
+	<input type="radio" name="drink" id="tea" disabled>お茶(￥130)
+	<input type="radio" name="drink" id="orange" disabled>オレンジジュース(￥160)
+	<input type="radio" name="drink" id="water" disabled>水(￥100)
+	<br>
+	<input type="button" id="purchase2" value="購入">
+	
+</form>
+
+
+<script src="js/test.js"></script>	
+</body>
+</html>
